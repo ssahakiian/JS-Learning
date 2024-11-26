@@ -21,4 +21,21 @@ console.log(arr.includes(NaN)); // includes() recognizes NaN
 
 //
 
+const arr = [9, 2, 7, 4]; // console.log the min and max numbers
+
+let min = arr[0];
+let max = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+    let item = arr[i];
+    if (item < min ) {
+        min = item
+    } if (item > max) {
+        max = item
+    }
+}
+
+console.log(min, 'min value');
+console.log(max, 'max value');
+
 

@@ -19,7 +19,7 @@ const user1 = {
 
 
 for (let i in user1) {
-    if (i !== 'length) {
+    if (i !== 'length') {
     user1.length = user1.length + 1;
 }
 }

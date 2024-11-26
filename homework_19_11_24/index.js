@@ -1,4 +1,5 @@
-//homework5
+//The program should ask for two numbers and an operation (addition, subtraction, multiplication, or division). Use switch-case, Input: 5, 3, "+"Output: 8
+
 var num1 = +prompt("Enter the first number:");
 var num2 = +prompt("Enter the second number:");
 var operation = prompt("Choose the operation (+, -, *, /):");
@@ -21,7 +22,8 @@ switch(operation) {
 console.log(output);
 
 
-//homework4
+//Create a program that uses a switch-case to translate a day of the week from English to Armenian. 
+//The user should input the name of the day in English, and the program should return the corresponding Armenian name.
 
 var day = prompt ('please input day');
 day = day.toLowerCase();
@@ -34,7 +36,7 @@ switch (day) {
 
 console.log(translatedDay);
 
-//homework3
+//Write a program that takes the number of a month (1-12) and prints which season it belongs to
 
 var month = +prompt('please input month')
 
@@ -52,7 +54,8 @@ if (month === 12 || month === 1 || month === 2) {
 
 console.log(output);
 
-//homework2
+
+//Write a program that takes a number as input and checks if it is even or odd
 
 var n = 2;
 
@@ -62,7 +65,7 @@ if (n % 2 === 0) {
     console.log('odd');
 }
 
-//homework1
+//Write a program that takes the user’s score and prints the corresponding grade based on the following rules
 
 var score = +prompt('UserScore')
 

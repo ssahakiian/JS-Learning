@@ -1,3 +1,5 @@
+// Log each key-value pair from the user object. Example// firstName : John
+
 const user = {
     firstName: 'John',
     lastName: 'Smith',
@@ -8,6 +10,8 @@ for (let i in user) {
     console.log(`${i} : ${user[i]}`)
 } 
 
+//Calculate the number of properties in user1 (excluding length) and update length with this count, 
+//then logs the updated object.
 
 let count  = 0
 const user1 = {
@@ -25,12 +29,13 @@ for (let i in user1) {
 }
 console.log(user1)
 
-
+//object vs array
 
 const obj = {}; //literal
 const arr = [];
 
 
+// Menthods and how they work
 
 const skills = ['HTML', 'CSS'];
 
@@ -42,6 +47,9 @@ skills.pop(); // delete the very last index
 
 console.log(skills);
 
+
+//This code iterates over an array (arr) containing mixed data types and categorizes the elements 
+//into separate arrays based on their type. Four arrays are initialized.
 
 
 const arr = ['Hello', 3, '2', NaN, {}, false, true, 99, 'JS', null, []];
@@ -68,7 +76,8 @@ console.log(boo);
 console.log(objects);
 console.log(numb);
 
-//
+//Find the minimum and maximum values in an array (arr) and 
+//counts how many cycles (iterations) are made during the process.
 
 const arr = [3, 99, 1, 4];
 let min = arr[0];
@@ -89,12 +98,15 @@ console.log(count);
 console.log(min, 'min value');
 console.log(max, 'max value');
 
-//
+
+//Reverse the order of elements in the array arr using the reverse() method 
+//and then log the reversed array to the console.
 
 const arr = [1, 2, 3, 4];
 console.log(arr.reverse());
 
-//
+
+//Check if the string is a palindrome by comparing it with its reversed version, ignoring case (comparing by lowercase).
 
 
 const palindromeName = 'Anna';
@@ -105,7 +117,9 @@ const joinData = reverseData.join('');
 
 console.log(joinData.toLowerCase() === palindromeName.toLowerCase());
 
-//
+
+//Copy the properties from one object (obj1) to another (obj2) 
+//and then modify one of the properties in obj2 without touching the same property in obj1.
 
 const obj1 = {
     x: 10,

@@ -1,12 +1,4 @@
-//homework1
-
-let n = 5
-
-for (let i = 1; i <= 10; i++) {
-    console.log(i * n);
-}
-
-//homework2
+//Write a for loop to replace all spaces in a string with hyphens (-).
 
 let sentence = "I am learning JavaScript";
 let result = ""
@@ -20,4 +12,3 @@ for (let i = 0; i < sentence.length; i++) {
 }
 
 console.log(result);
-

@@ -1,15 +1,20 @@
-// Problem 3: Longest Text
-// Given an array of strings ["React", "JavaScript", "Redux", "PHP", "C#"]:
-// Write a program to find the longest word in the array.
-// Solution in JavaScript using only for loop and arrays
+// Problem 2: Remove Duplicates
+// Given an array [1, 2, 2, 3, 4, 4, 5]:
+// Write a program to create a new array where duplicate elements are removed.
+// The result should be [1, 2, 3, 4, 5] with most optimal way.
 
-const arr = ["React", "JavaScript", "Redux", "PHP", "C#"];
-let longItem = arr[0];
+const arr = [1, 2, 2, 3, 4, 4, 5];
+const uniqueItems = [];
+
+const obj = {}
 
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i].length > longItem.length) {
-        longItem = arr[i];
-    }
+     let item = arr[i];
+     if (!obj[item]) {
+         obj[item] = true;
+         uniqueItems.push(item)
+     }
 }
 
-console.log(longItem, '>>>>');
+console.log(uniqueItems);
+

@@ -5,6 +5,6 @@
 const n = 10;
 
 for (let i = 1; i <= n; i++) {
-     let asterisks = '*'.repeat(i);
+     let asterisks = '*'.repeat(i)
     console.log(asterisks);
 }

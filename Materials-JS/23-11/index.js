@@ -31,8 +31,8 @@ console.log(user1)
 
 //object vs array
 
-const obj = {}; //literal
-const arr = [];
+// const obj = {}; //literal
+// const arr = [];
 
 
 // Menthods and how they work
@@ -79,22 +79,22 @@ console.log(numb);
 //Find the minimum and maximum values in an array (arr) and 
 //counts how many cycles (iterations) are made during the process.
 
-const arr = [3, 99, 1, 4];
-let min = arr[0];
-let max = arr[0];
-let count = 0
+const arr1 = [3, 99, 1, 4];
+let min = arr1[0];
+let max = arr1[0];
+let count1 = 0
 
-for (let i = 1; i < arr.length; i++) {
-    count++
-    if (arr[i] > max) {
-        max = arr[i];
+for (let i = 1; i < arr1.length; i++) {
+    count1++
+    if (arr1[i] > max) {
+        max = arr1[i];
     } 
-    if (arr[i] < min) {
-        min = arr[i];
+    if (arr1[i] < min) {
+        min = arr1[i];
     }
 }
 
-console.log(count);
+console.log(count1);
 console.log(min, 'min value');
 console.log(max, 'max value'); 
 
@@ -102,8 +102,8 @@ console.log(max, 'max value');
 //Reverse the order of elements in the array arr using the reverse() method 
 //and then log the reversed array to the console.
 
-const arr = [1, 2, 3, 4];
-console.log(arr.reverse());
+const arr2 = [1, 2, 3, 4];
+console.log(arr2.reverse());
 
 
 //Check if the string is a palindrome by comparing it with its reversed version, ignoring case (comparing by lowercase).
@@ -134,5 +134,5 @@ for (let i in obj1) {
         obj2[i] = obj1[i];
 }
 obj2.x = 100000;
-console.log(obj2)
+console.log(obj2);
 

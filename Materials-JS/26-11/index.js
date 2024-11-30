@@ -16,21 +16,21 @@ console.log(findIndex, 'Find Index')
 
 //indexOf vs includes Array methods
 
-const arr = [1, 4, 6, 'JS', NaN, '2'];
+const arr1 = [1, 4, 6, 'JS', NaN, '2'];
 
-console.log(arr.indexOf(Nan)); // NaN !== NaN, won't work in this case
-console.log(arr.includes(NaN)); // includes() recognizes NaN
+console.log(arr1.indexOf(Nan)); // NaN !== NaN, won't work in this case
+console.log(arr1.includes(NaN)); // includes() recognizes NaN
 
 
 //Console.log the min and max numbers 
 
-const arr = [9, 2, 7, 4];
+const arr2 = [9, 2, 7, 4];
 
-let min = arr[0];
-let max = arr[0];
+let min = arr2[0];
+let max = arr2[0];
 
-for (let i = 1; i < arr.length; i++) {
-    let item = arr[i];
+for (let i = 1; i < arr2.length; i++) {
+    let item = arr2[i];
     if (item < min ) {
         min = item
     } if (item > max) {

@@ -1,4 +1,4 @@
-//Map method implementation
+// Map method implementation
 
 const number = [1, 2, 4, 5];
 

@@ -13,7 +13,7 @@ Array.prototype.customIncludes = function(searchElement, fromIndex = 0) {
     return false;
 }
 
-// Example:
+// Example
 const numbers = [18, 21, 31, 14, 25];
 const containsNum = numbers.customIncludes(21);
 

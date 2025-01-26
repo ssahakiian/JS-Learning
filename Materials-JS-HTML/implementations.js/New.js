@@ -20,4 +20,3 @@ const dog = customNew(Animal, '50kg', 'black', 'dog')
 
 console.log(dog.run());
 
-////

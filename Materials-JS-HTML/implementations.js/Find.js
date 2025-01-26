@@ -7,7 +7,7 @@ Array.prototype.customFind = function(callback) {
     return undefined
 };
 
-// Example:
+// Example
 const numbers = [5, 10, 15, 20];
 const findNumber = numbers.customFind(function(num) {
     return num > 10

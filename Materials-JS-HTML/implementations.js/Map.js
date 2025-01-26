@@ -8,7 +8,7 @@ Array.prototype.customMap = function(callback) {
     return resultArray;
 };
 
-//Example
+// Example
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.customMap(function(num) {
     return num * 2;

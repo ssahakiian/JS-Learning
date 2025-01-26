@@ -13,7 +13,7 @@ Array.prototype.customIndexOf = function(searchElement, fromIndex = 0) {
     return -1; 
 };
 
-//Example:
+//Example
 const numbers = [1, 2, 3, 4, 5, 6];
 const index = numbers.customIndexOf(3);
 

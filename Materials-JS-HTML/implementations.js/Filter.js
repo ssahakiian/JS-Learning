@@ -10,7 +10,7 @@ Array.prototype.customFilter = function(callback) {
 
 };
 
-//Example:
+//Example
 
 const arr = ['JavaScript', 'Python', 'HTML', 'CSS']; 
 const longValue = arr.customFilter(function(word) {

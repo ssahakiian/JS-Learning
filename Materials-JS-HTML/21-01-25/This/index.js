@@ -149,3 +149,60 @@ console.log(cat.run(10));
 // learn bind call apply
 // class vs function
 // TypeScript
+
+
+
+//
+
+const warehouse = {
+    getObjectValues: function() {
+        const result = [];
+        
+        for (let i in this) {
+        if (i === 'getObjectValues') continue
+            result.push(this[i]);
+        }
+        return result;
+    }
+
+}
+
+
+const myCustomObject1 = {
+    x: 10,
+    y: 20
+}
+
+const myCustomObject2 = {
+    x: 30,
+    y: 40,
+
+}
+
+myCustomObject1.__proto__ = warehouse;
+myCustomObject2.__proto__ = warehouse;
+
+
+console.log(myCustomObject1.getObjectValues(), 'myCustomObject1');
+console.log(myCustomObject2.getObjectValues(), 'myCustomObject2');
+
+///
+
+function foo(x) {
+    this.x = x;
+}
+
+const obj1 = {
+
+}
+
+const obj2 = {
+
+}
+
+foo.call(obj1, 10);// this will insert x=10 into obj1
+foo.call(obj1, 20);//this will insert x=20 into obj1
+
+
+///
+
